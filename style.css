@@ -4,11 +4,6 @@
    font-family: 'Tilt Warp', cursive;
   }
 
-/*
-main {
-    height: 1500px;
-}*/
-
 .body  {
             
             
@@ -16,6 +11,7 @@ main {
     background-image: url("./images.jpg") ;
     
 }
+
 .text  {
     color: rgb(5, 8, 10);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -36,7 +32,7 @@ header {
     
 }
 
-/* SELECTOR DESCENDENTE */
+
 header nav ul {
     list-style: none;
     display: flex;
@@ -75,94 +71,90 @@ h1 {
     background-color: rgb(71, 142, 201);
     }
     
-    .container img {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    }
+.container img {
+max-width: 100%;
+height: auto;
+display: flex;
+}
 
-    .container-data-list
-    {
-    width: 75%;
-    height: fit-content;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 0.6rem;
-    text-align: center;
-            
-      }
-   
-      .table-usuarios thead 
-      {
-        background-color: #b6eccb ;
+.container-data-list
+{
+width: 75%;
+height: fit-content;
+margin: 1rem;
+padding: 1rem;
+border-radius: 0.6rem;
+text-align: center;
         
-        }
+    }
+   
+.table-usuarios thead 
+{
+background-color: #b6eccb ;
 
-/*.pl{
-    
-    width: 150px;
-    height: 100px;
-}   */ 
+}
+
+
 
 .textos 
-    {
-        align-self: center;
-        padding: 100px;
+{
+align-self: center;
+padding: 100px;
+}
+
+.input-group
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.h2
+{
+color: black;
+font-size: 35px;
+
     }
-
-        .input-group
-        {
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-        
-        }
-
-        .h2
-            {
-                color: black;
-                font-size: 35px;
-
-                    }
-        label
-        {
-            color: #283629;
-            font-size: 15px;
-            font-weight: 600px;
-            margin-bottom: 15px;
-        }
+label
+{
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
 
 
 
 
-        body
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            min-height: 100vh;
-            /*display: flex ;*/ 
-            align-items: center;
-            justify-content: center;
-        
-        }
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    /*display: flex ;*/ 
+    align-items: center;
+    justify-content: center;
+
+}
        
-       form
+form
+
+{
+    padding: 10PX 12px;
+    border-radius: 20PX;
+    text-align: center;
+    width: 120;
+    
+}
        
-       {
-           padding: 10PX 12px;
-           border-radius: 20PX;
-           text-align: center;
-           width: 120;
-          
-       }
-       
-       .input-group
-       {
-           display: flex;
-           flex-direction: column;
-           text-align: left;
-        
-       
-       }
+.input-group
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+
+}
        
        .h2
            {
@@ -274,12 +266,7 @@ h1 {
             width: 100%;
             }
             
-           /* select {
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            background: url('https://cdn4.iconfinder.com/data/icons/line-web-1/32/dropdown_arrow-512.png') no-repeat right center;
-            background-size: 20px;
-            } */
+         
             
             .step {
             display: none;
