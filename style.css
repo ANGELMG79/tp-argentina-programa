@@ -200,12 +200,13 @@ form
             
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            
         }
         .pie2 {
             font-size: 20px;
             text-decoration: none;
             color: black;
+            align-items: center;
         }
         .pin{
             font-size: 20px;
@@ -323,5 +324,8 @@ form
                 height: 250px;
                 width: 250px;
             }
-          
+          .imagen2{
+            display: flex;
+            justify-content: center;
+          }
            
