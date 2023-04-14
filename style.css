@@ -199,8 +199,8 @@ form
             list-style: none;
             
             display: flex;
-            flex-direction: row;
-            gap: 75px;
+            flex-direction: column;
+            gap: 20px;
         }
         .pie2 {
             font-size: 20px;
