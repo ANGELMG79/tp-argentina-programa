@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+   font-family: 'Tilt Warp', cursive;
+  }
+
+/*
+main {
+    height: 1500px;
+}*/
+
+.body  {
+            
+            
+    text-align: center;
+    background-image: url("./images.jpg") ;
+    
+}
+.text  {
+    color: rgb(5, 8, 10);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 5px 5px;
+}  
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(71, 142, 201);
+   
+    
+}
+
+/* SELECTOR DESCENDENTE */
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+ul#miUL li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.imagen {
+    width: 700px;
+    height: 350px;
+    margin-right: 50px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(71, 142, 201);
+    }
+    
+    .container img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    }
+
+    .container-data-list
+    {
+    width: 75%;
+    height: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    text-align: center;
+            
+      }
+   
+      .table-usuarios thead 
+      {
+        background-color: #b6eccb ;
+        
+        }
+
+/*.pl{
+    
+    width: 150px;
+    height: 100px;
+}   */ 
+
+.textos 
+    {
+        align-self: center;
+        padding: 100px;
+    }
+
+        .input-group
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        
+        }
+
+        .h2
+            {
+                color: black;
+                font-size: 35px;
+
+                    }
+        label
+        {
+            color: #283629;
+            font-size: 15px;
+            font-weight: 600px;
+            margin-bottom: 15px;
+        }
+
+
+
+
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+            /*display: flex ;*/ 
+            align-items: center;
+            justify-content: center;
+        
+        }
+       
+       form
+       
+       {
+           padding: 10PX 12px;
+           border-radius: 20PX;
+           text-align: center;
+           width: 120;
+          
+       }
+       
+       .input-group
+       {
+           display: flex;
+           flex-direction: column;
+           text-align: left;
+        
+       
+       }
+       
+       .h2
+           {
+               color: black;
+               font-size: 35px;
+       
+                   }
+       label
+       {
+           color: #283629;
+           font-size: 15px;
+           font-weight: 600px;
+           margin-bottom: 15px;
+       }
+       
+       input
+       {
+       padding: 17px 25px;
+       border-radius: 25px;
+       margin-bottom: 20px;
+       background-color: #eaf0eb;   
+       border: 2px solid #eaf0eb; 
+       
+       }
+      .fondo
+      {
+        background-color: rgb(158, 198, 231);
+      } 
+
+      .pie {
+       
+            display: flex;
+            flex-direction: row;
+            
+            align-items: center;
+            justify-content: space-around;
+            background-color: rgb(71, 142, 201);
+           
+            
+        }
+        .pie2 {
+            list-style: none;
+            
+            display: flex;
+            flex-direction: row;
+            gap: 75px;
+        }
+        .pie2 {
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .pin{
+            font-size: 20px;
+            text-decoration: none;
+            color: black; 
+        }
+
+        .buttons {
+            min-width: 700px;
+            display: flex;
+            justify-content: space-around;
+          }
+          
+          .buttons a {
+            text-decoration: none;
+            font-size: 28px;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background: #314652;
+            color: #f1f1f1;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+            transition: all .4s ease-in-out;
+          }
+          
+          .buttons a:hover {
+            transform: scale(1.2);
+          }
+
+       
+
+
+
+          form {
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            }
+            
+            label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            }
+            
+            input[type="text"],
+            input[type="email"],
+            select {
+            border-radius: 3px;
+            border: none;
+            display: block;
+            font-size: 1em;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 100%;
+            }
+            
+           /* select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background: url('https://cdn4.iconfinder.com/data/icons/line-web-1/32/dropdown_arrow-512.png') no-repeat right center;
+            background-size: 20px;
+            } */
+            
+            .step {
+            display: none;
+            }
+            
+            .step.active {
+            display: block;
+            }
+            
+            .step-header {
+            margin-bottom: 20px;
+            }
+            
+            .step-header h2 {
+            margin-top: 0;
+            }
+            
+            .step-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            }
+            
+            .step-buttons button {
+            background-color: #00a8e6;
+            border: none;
+            border-radius: 3px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            }
+            
+            .step-buttons button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            }
+            
+           
+            
+            ul.confirmation {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            }
+            
+            ul.confirmation li {
+            margin-bottom: 10px;
+            }
+          
+           
