@@ -331,5 +331,10 @@ h1 {
             ul.confirmation li {
             margin-bottom: 10px;
             }
+
+            #map {
+                height: 250px;
+                width: 250px;
+            }
           
            
