@@ -107,6 +107,8 @@ padding: 100px;
     display: flex;
     flex-direction: column;
     text-align: left;
+    background-color: aquamarine;
+    border-style: double;
 
 }
 
@@ -116,13 +118,13 @@ color: black;
 font-size: 35px;
 
     }
-label
+/*label
 {
     color: #283629;
     font-size: 15px;
     font-weight: 600px;
     margin-bottom: 15px;
-}
+}*/
 
 
 
@@ -131,7 +133,7 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    /*display: flex ;*/ 
+    /*display: flex ;/*/
     align-items: center;
     justify-content: center;
 
@@ -147,14 +149,14 @@ form
     
 }
        
-.input-group
+/*.input-group
 {
     display: flex;
     flex-direction: column;
     text-align: left;
 
 
-}
+}*/
        
        .h2
            {
@@ -168,15 +170,16 @@ form
            font-size: 15px;
            font-weight: 600px;
            margin-bottom: 15px;
+           border: 2px solid aquamarine; 
        }
        
        input
        {
        padding: 17px 25px;
-       border-radius: 25px;
+       border-radius: 10px;
        margin-bottom: 20px;
        background-color: #eaf0eb;   
-       border: 2px solid #eaf0eb; 
+       border: 2px solid rgb(8, 12, 9); 
        
        }
       .fondo
@@ -249,13 +252,13 @@ form
             padding: 20px;
             }
             
-            label {
+            /*label {
             display: block;
             font-weight: bold;
             margin-bottom: 10px;
-            }
+            }*/
             
-            input[type="text"],
+            /*input[type="text"],
             input[type="email"],
             select {
             border-radius: 3px;
@@ -264,12 +267,12 @@ form
             font-size: 1em;
             margin-bottom: 20px;
             padding: 10px;
-            width: 100%;
-            }
+            width: 30%;
+            }*/
             
          
             
-            .step {
+            /*.step {
             display: none;
             }
             
@@ -306,7 +309,7 @@ form
             .step-buttons button:disabled {
             opacity: 0.5;
             cursor: not-allowed;
-            }
+            }*/
             
            
             
@@ -329,3 +332,8 @@ form
             justify-content: center;
           }
            
+          /*.turno {
+            
+            flex-direction: column;
+
+          }*/
