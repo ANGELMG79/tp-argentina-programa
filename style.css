@@ -51,13 +51,16 @@ h1 {
 }
 
 .contenedor {
-    display: flex;
+    display:inline;
+    margin-right:auto;
+    width: 700px;
+
 }
 
 .imagen {
     width: 700px;
     height: 350px;
-    margin-right: 50px;
+    margin-right:auto;
 }
 
 
@@ -104,10 +107,10 @@ padding: 100px;
 
 .input-group
 {
-    display: flex;
+    display:inline-flex;
     flex-direction: column;
     text-align: left;
-    background-color: aquamarine;
+    background-color: rgb(154, 213, 247);
     border-style: double;
 
 }
@@ -166,11 +169,11 @@ form
                    }
        label
        {
-           color: #283629;
+           color: #040804;
            font-size: 15px;
            font-weight: 600px;
            margin-bottom: 15px;
-           border: 2px solid aquamarine; 
+           border: 2px solid (154, 213, 247); 
        }
        
        input
@@ -178,10 +181,37 @@ form
        padding: 17px 25px;
        border-radius: 10px;
        margin-bottom: 20px;
-       background-color: #eaf0eb;   
+       background-color: #e7eeed;   
        border: 2px solid rgb(8, 12, 9); 
        
        }
+       .parrafo
+       {
+        text-align: justify;
+        margin: auto;
+        width: 70%;
+      } 
+       textarea
+       {
+        padding: 17px 25px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: #e7eeed;   
+        border: 2px solid rgb(8, 12, 9); 
+        
+        }
+
+
+        .titulo
+
+        {
+            font-size: 60px;
+            text-decoration: none;
+            color: black;
+            align-items:normal;
+            text-align: left;
+        } 
+
       .fondo
       {
         background-color: rgb(158, 198, 231);
@@ -191,7 +221,6 @@ form
        
             display: flex;
             flex-direction: row;
-            
             align-items: center;
             justify-content: space-around;
             background-color: rgb(71, 142, 201);
@@ -200,16 +229,16 @@ form
         }
         .pie2 {
             list-style: none;
-            
             display: flex;
             flex-direction: column;
             
         }
         .pie2 {
-            font-size: 20px;
+            font-size: 12px;
             text-decoration: none;
             color: black;
-            align-items: center;
+            align-items:center;
+            text-align: left;
         }
         .pin{
             font-size: 20px;
@@ -236,7 +265,17 @@ form
             box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
             transition: all .4s ease-in-out;
           }
-          
+        .btns 
+        {
+            background-color: #0b4bfc;
+            border: 10px;
+            padding: 15px 32px;
+            text-align: center;
+            color: #e7eeed;
+            margin: 40px 160px;
+            cursor: pointer;
+
+          }
           .buttons a:hover {
             transform: scale(1.2);
           }
@@ -258,7 +297,17 @@ form
             margin-bottom: 10px;
             }*/
             
-        
+            /*input[type="text"],
+            input[type="email"],
+            select {
+            border-radius: 3px;
+            border: none;
+            display: block;
+            font-size: 1em;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 30%;
+            }*/
             
          
             

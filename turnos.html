@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <div>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turnos</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   
 
-</head>
-
-<header>
-    <h1>Mutual Medica</h1>
-    <nav>
-        <ul id="miUL">
-            <li><a href="index.html">Nuestra Historia</a></li>
-            <li><a href="planes.html">Planes</a></li>
-            <li><a href="turnos.html">turnos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+  
+    <header>
+        <h1>Mutual Medica</h1>
+        <nav>
+            <ul id="miUL">
+                <li><a href="index.html">Nuestra Historia</a></li>
+                <li><a href="planes.html">Planes</a></li>
+                <li><a href="turnos.html">turnos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
+</head>
 
 <body >
   
 
-    <div >
+    
        
-        <div>
-            <div>
-                <form id="turno">
+                 <form id="turno">
                     <h2>Turnos</h2>
                     <hr>
 
+<div class="input-group">
                 <input id="nombre" class="form-control my-2" type="text" placeholder="ingrese su nombre">
                 <br>
 
@@ -46,21 +48,19 @@
 
                 <br>
 
-                <button class="btn" type="submit">Confirmar turno  </button>
+
+                <button class="btns" type="submit">Confirmar turno  </button>
                 
+</div> 
                 <h3 id="respuesta"></h3>
             
-                <button class="btn" type="submit">Imprimir PDF</button>
+                <button class="btns" type="submit">Imprimir PDF</button>
 
                 </form>
                 <hr>
 
-                
-                    
-                </h3>
-            </div>
-        </div>
-    </div>
+    
+       
     
     <script src="main.js"></script>
 </body>
@@ -68,7 +68,7 @@
 <footer class="pie"  >
     <div>
         <ul   class="pie2">
-            <li><a class="pin" href="index.html">Home</a></li>
+            <li><a class="pin" href="index.html">Mutual Medica</a></li>
             <li><p>HORARIO DE ATENCION DE LUNES A VIERNES DE 8HS A 20HS</p></li>
             <li><P>Comunicate con nosotros 0810-345-66247 (NOBIS)
                 </P></li>
@@ -91,7 +91,7 @@
         
     </div>
     <div  id="map"></div>
-    <script src="main.js"></script>
+    <script src="map.js"></script>
         
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
     
