@@ -223,7 +223,7 @@ form
             font-size: 12px;
             text-decoration: none;
             color: black;
-            align-items:center;
+            align-items:normal;
             text-align: left;
         }
         .pin{
@@ -260,6 +260,25 @@ form
             color: #e7eeed;
             margin: 40px 160px;
             cursor: pointer;
+            
+          }
+
+          .btns3
+        {
+            display: flex;
+            text-align: center;
+        }
+          .btns2 
+        {
+            background-color: #0b4bfc;
+            border: 10px;
+            padding: 10px;
+            text-align: center;
+            color: #e7eeed;
+            margin: 4px 2px;
+            cursor: pointer;
+            
+            
 
           }
           .buttons a:hover {
