@@ -14,3 +14,5 @@ function validarFormulario(e){
     respuesta.textContent = `El turno requerido por ${nombre} ${apellido} es el dia ${fecha}, se solicitara confirmacion por el correo ${correo}`
 }
 
+
+

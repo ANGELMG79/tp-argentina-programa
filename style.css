@@ -121,13 +121,7 @@ color: black;
 font-size: 35px;
 
     }
-/*label
-{
-    color: #283629;
-    font-size: 15px;
-    font-weight: 600px;
-    margin-bottom: 15px;
-}*/
+
 
 
 
@@ -136,7 +130,6 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    /*display: flex ;/*/
     align-items: center;
     justify-content: center;
 
@@ -152,14 +145,7 @@ form
     
 }
        
-/*.input-group
-{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
 
-
-}*/
        
        .h2
            {
@@ -291,67 +277,7 @@ form
             padding: 20px;
             }
             
-            /*label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 10px;
-            }*/
-            
-            /*input[type="text"],
-            input[type="email"],
-            select {
-            border-radius: 3px;
-            border: none;
-            display: block;
-            font-size: 1em;
-            margin-bottom: 20px;
-            padding: 10px;
-            width: 30%;
-            }*/
-            
-         
-            
-            /*.step {
-            display: none;
-            }
-            
-            .step.active {
-            display: block;
-            }
-            
-            .step-header {
-            margin-bottom: 20px;
-            }
-            
-            .step-header h2 {
-            margin-top: 0;
-            }
-            
-            .step-buttons {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            }
-            
-            .step-buttons button {
-            background-color: #00a8e6;
-            border: none;
-            border-radius: 3px;
-            color: #fff;
-            cursor: pointer;
-            font-size: 1em;
-            padding: 10px 20px;
-            text-transform: uppercase;
-            }
-            
-            .step-buttons button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-            }*/
-            
-           
-            
+        
             ul.confirmation {
             list-style: none;
             padding: 0;
@@ -371,8 +297,16 @@ form
             justify-content: center;
           }
            
-          /*.turno {
-            
-            flex-direction: column;
+        
 
-          }*/
+          .imagenes  { float: left; 
+            width: 30em; height: 30em; margin-right: 1em; }
+    
+    .desactivo {
+        display: none;
+    }
+    .carru{
+        
+        display: grid;
+        place-items: center;
+    }
