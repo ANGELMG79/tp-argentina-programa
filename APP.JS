@@ -1,6 +1,6 @@
-const turno = document.querySelector("#turno");
+const contacto = document.querySelector("#contacto");
 
-turno.addEventListener( "submit", validarFormulario )
+contacto.addEventListener( "submit", validarFormulario )
 
 
 function validarFormulario(e){
@@ -10,7 +10,7 @@ function validarFormulario(e){
     const fecha = document.querySelector("#fecha").value
     const correo = document.querySelector("#correo").value
 
-    const respuesta = document.getElementById("respuesta");
-    respuesta.textContent = `El turno requerido por ${nombre} ${apellido} es el dia ${fecha}, se solicitara confirmacion por el correo ${correo}`
+    const respuest2 = document.getElementById("respuesta2");
+    respuest2.textContent = `${nombre} su consulta sera respondida a la brevedad, al correo ${correo}`
 }
 
